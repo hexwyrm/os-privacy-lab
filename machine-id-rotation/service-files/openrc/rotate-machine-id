@@ -1,0 +1,13 @@
+#!/sbin/openrc-run
+
+description="Rotate machine-id on each boot"
+
+depend() {
+    need localmount
+}
+
+start() {
+    ebegin "Rotating machine-id"
+    /usr/local/sbin/rotate-machine-id
+    eend $?
+}

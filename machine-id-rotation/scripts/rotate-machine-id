@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Generate a random 32-character hex string
+NEW_ID=$(hexdump -n 16 -v -e '/1 "%02x"' /dev/urandom)
+
+# Apply it to both machine-id locations
+echo "$NEW_ID" > /etc/machine-id
+
+# Some systems symlink this file; others do not
+echo "$NEW_ID" > /var/lib/dbus/machine-id
+
