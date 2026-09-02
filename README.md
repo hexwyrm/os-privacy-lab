@@ -155,19 +155,13 @@ Planned or potential expansions include:
 
 ---
 
-## License / Use Allowance
+## 📜 License
 
-You are free to:
+This project is licensed under the **PolyForm Noncommercial License 1.0.0**.
 
-* Use
-* Modify
-* Study
-* Adapt
-* Reproduce
-* Share
+Commercial use requires separate permission from the copyright holder.
 
-the code and documentation in this repository for personal, educational, or research purposes.
+See the `LICENSE` file for the full license terms.
 
-Attribution is required.
+**Required Notice: Copyright 2026 Hexwyrm**
 
-Commercial use is not allowed, and no warranty or guarantee is provided.
